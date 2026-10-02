@@ -75,7 +75,7 @@ namespace IndieMarc.TopDown
             move.y = Mathf.MoveTowards(move.y, desiredSpeedY, accelerationY * Time.fixedDeltaTime);
 
             //Move
-            rigid.velocity = move;
+            rigid.linearVelocity = move;
             
         }
 
@@ -135,7 +135,7 @@ namespace IndieMarc.TopDown
             if (!is_dead)
             {
                 is_dead = true;
-                rigid.velocity = Vector2.zero;
+                rigid.linearVelocity = Vector2.zero;
                 move = Vector2.zero;
                 move_input = Vector2.zero;
 

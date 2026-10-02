@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 30
-  productGUID: 00000000000000000000000000000000
+  productGUID: 446a64939a1be3c48ae02556dce5a78e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -766,7 +766,7 @@ PlayerSettings:
   cloudProjectId: 4c2449ff-a02c-46ee-81d6-1e8cc1c42adb
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: TeamLab_1
   organizationId: gr_man
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
